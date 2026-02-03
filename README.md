@@ -12,4 +12,4 @@
 
 ## Tech stack
 - SQL (PostgreSQL)
--Все запросы находятся в файле `orders_analysis.sql`
+Все запросы находятся в файле `orders_analysis.sql`
