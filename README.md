@@ -1,13 +1,14 @@
-# SQL Orders Analysis
+# Анализ заказов SQL 
 
-## Project goal
-The goal of this project is to analyze basic order metrics using SQL.
-This project is a simple educational analysis of orders data.
+## Цель проекта
+Цель проекта - проанализировать базовые метрики заказов с помощью SQL. Проект представляет собой простое образовательное исследование данных о заказов.
 
-## Metrics
-- Total number of orders
-- Average order value
-- Minimum and maximum order value
+## Метрики
+- Общее количество заказов
+- Средняя стоимость заказа
+- Минимальная и максималная стоимость заказов
+- Количество заказов по статусам
+- Средний чек по статусам
 
 ## Tech stack
 - SQL (PostgreSQL)
