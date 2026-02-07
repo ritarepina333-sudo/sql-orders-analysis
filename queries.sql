@@ -21,3 +21,11 @@ GROUP BY status;
 SELECT status, AVG(price) AS average_price 
 FROM orders
 GROUP BY status;
+
+-- Кто не совершил покупкку
+SELECT u.name
+FROM users u
+LEFT JOIN orders o 
+ON u.id = o.user_id
+WHERE o.id IS NULL;
+
