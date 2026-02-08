@@ -29,3 +29,13 @@ LEFT JOIN orders o
 ON u.id = o.user_id
 WHERE o.id IS NULL;
 
+-- Пользователи с заказами выше среднего чека
+SELECT u.name, o.price
+FROM users u
+JOIN orders o ON u.id = o.user_id
+WHERE o.price > (
+    SELECT AVG(price)
+    FROM orders
+);
+
+
